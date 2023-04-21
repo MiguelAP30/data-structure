@@ -1,0 +1,13 @@
+Comandos:
+pwd : consultar ruta actual
+ls : consultar contenido de la carpeta
+cd (nombre de la carpeta + tab) : entrar en una carpeta
+cd .. : volver atrás
+ls -a : ver contenido oculto
+ctr + l o clear: limpiar la terminal
+mkdir "(nombre de la carpeta)" : crear una carpeta
+touch + nombre del archivo.tipo de archivo = crear un archivo
+code . + enter: abrir archivo en visual
+rmdir: eliminar carpeta sin contenido
+
+

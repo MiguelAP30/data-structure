@@ -1,0 +1,17 @@
+>>>>>>>>>>>>>>>>>>> Comandos <<<<<<<<<<<<<<<<<<<
+pwd: consultar ruta actual
+ls: consultar el contenido de la carpeta 
+cd + nombr de la carpeta + tab: entrar a una carpeta en especifico. ej: cd Documents/
+cd + .. : devolverme a la ruta anterior. ej: cd ../ 
+ls + -a: ver contenido oculto. ej: ls -a
+control + L : limpiar terminal o clear
+mkdir + "nombre de carpeta": crear una carpeta
+touch + nombre y tipo de archivo: crear un tipo de archivo (.py (un archivo de pyton))
+code + . : abrir visual.
+py + -v : consultar la version de python.
+
+>>>>>>>>>>>>>>>> Extenciones <<<<<<<<<<<<<<<<<<
+indent-rainbow oderwat
+
+
+>>>>>>>>>>>>>>>> Apuntes Varios <<<<<<<<<<<<<<<

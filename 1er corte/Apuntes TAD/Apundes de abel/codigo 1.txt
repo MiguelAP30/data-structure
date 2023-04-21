@@ -1,0 +1,85 @@
+# coment one line
+'''
+muchas lineas:
+    Chupapi muñaño
+    20/01/2023
+'''
+print("Hello from main.py")
+
+#inicializar variables:
+user_name= "Abelardo"
+age= 17
+gender= 'M'
+is_active= True
+height= 1.71
+
+#Array
+pets= ["Dog", "Cat"]
+
+#Condicionals
+if age > 17:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
+
+if gender == 'F' or gender == 'f':
+    print("Femenino")
+elif gender == 'M' or gender == 'm':
+    print("Masculino")
+elif gender == 'NB' or 'nb':
+    print("No binario")
+elif gender == 'SE' or 'se':
+    print("Sin especificar")
+else:
+    print(">> Opción inválida <<")
+
+'''
+    Funciones con texto: 
+    lower(): Convierte todo el texto en minúscula
+    upper(): Convierte todo el texto en mayúscula
+    capitalize(): Convierte el primer caracter en mayúscula y el resto en minúscula
+'''
+print(user_name)
+print(user_name.lower())
+print(user_name.upper())
+print(user_name.capitalize())
+
+#---------------------Code implements lower(), upper(), capitalize()
+if gender.upper()=='F':
+    print("Femenino")
+elif gender.upper()=='M':
+    print("Masculino")
+elif gender.upper() == 'NB':
+    print("No binario")
+elif gender.upper() == 'SE':
+    print("Sin especificar")
+else:
+    print(">> Opción inválida <<")
+
+#Show list content
+print(pets)
+#Show list length
+print(len(pets))
+#Interpolación de mensajes
+print(f"{user_name} tiene {age} años")
+
+#Show content of specific index in list
+print(pets[0])
+print(pets[1])
+
+#--------------For cycle--------------
+for i in range(0,10):
+    print(i)
+
+for i in range(10):
+    print(i)
+
+for i in range(1,11):
+    print(i)
+
+print("----------------------------")
+#------------While-----------
+cont= 0
+while cont < 10:
+    print(cont)
+    cont+=1

@@ -1,0 +1,15 @@
+Convención:
+PascalCase
+snale_case
+lwerCamellCase
+kebab-case
+
+En Python:
+para nombrar clase: PascalCase
+nombrar funciones y Nombrar Variables: snake_case
+Nombre de archivos: sanke_case
+
+
+listas:
+append(): Añadir elemento al final de la lista
+pop(): Elimina elemento al final de la lista

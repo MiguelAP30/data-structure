@@ -1,0 +1,97 @@
+from single_linked_list import SingleLinkedList
+inst_SLL = SingleLinkedList()
+
+inst_SLL.create_node_sll_ends("batman")
+inst_SLL.create_node_sll_ends("robin")
+inst_SLL.create_node_sll_ends("wolverine")
+inst_SLL.create_node_SLL_unshift("hulk")
+
+#inst_SLL.create_node_sll_ends(7)
+#inst_SLL.create_node_sll_ends(6)
+#inst_SLL.create_node_sll_ends(9)
+#inst_SLL.create_node_SLL_unshift(45)
+
+print("---------------------------")
+print("     >>> Lista completa <<<")
+inst_SLL.show_list()
+inst_SLL.comprobar_si_esta_vacia()
+print("")
+
+print("---------------------------")
+print("     >>> Lista reversa <<<")
+inst_SLL.reverse_sll()
+inst_SLL.show_list()
+print("")
+
+print("---------------------------")
+print("     >>> Insertar un nodo en una poscicion <<<")
+inst_SLL.insertar_en_posicion("hola",1)
+inst_SLL.show_list()
+print("")
+
+print("---------------------------")
+print("     >>> Lista ordenada <<<")
+inst_SLL.ordenar_la_lista()
+print("")
+
+print("---------------------------")
+print("     >>> Tamaño de la lista <<<")
+inst_SLL.show_length()
+print("")
+
+print("---------------------------")
+print("     >>> Posicion de un elemento <<<")
+inst_SLL.posicion_de_un_elemento("robin")
+print("")
+
+
+print("---------------------------")
+inst_SLL.show_list()
+print("")
+print("---------------------------")
+print("     >>>Eliminar ultimo nodo <<<")
+print("")
+inst_SLL.delete_node_SLL_pop()
+inst_SLL.show_list()
+
+print("")
+print("---------------------------")
+print("     >>>Eliminar Primer nodo <<<")
+print("")
+inst_SLL.shift_node_SLL()
+inst_SLL.show_list()
+
+print("")
+print("---------------------------")
+print("     >>> Consultar valor del nodo <<<")
+print("")
+inst_SLL.get_node_value(1)
+inst_SLL.get_node_value(2)
+
+print("")
+print("---------------------------")
+print("     >>> Actualizar valor del nodo <<<")
+print("")
+inst_SLL.update_node_value(1, "Linterna Verde")
+print("")
+inst_SLL.show_list()
+
+print("")
+print("---------------------------")
+print("     >>> Eliminar nodo especifico <<<")
+print("")
+inst_SLL.remove_node(1)
+print("")
+inst_SLL.show_list()
+
+print("---------------------------")
+print("     >>> Tamaño de la lista <<<")
+inst_SLL.show_length()
+
+print("---------------------------")
+print("     >>> Eliminar todos los elementos <<<")
+inst_SLL.eliminar_todos_los_elementos()
+inst_SLL.show_list()
+print("")
+
+inst_SLL.comprobar_si_esta_vacia()

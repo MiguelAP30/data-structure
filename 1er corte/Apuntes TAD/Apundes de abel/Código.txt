@@ -1,0 +1,30 @@
+Tipo de estrucutra = lista --> mutable     +felxible
+
+Declarar lista:
+
+pets=[] pets= list()
+
+Declarar lista con elementos:
+pets = ["dog", "cat"]
+
+[[Contenido1][Contenido2][Contenido3]]
+-se pueden añadir elementos, eliminar elementos, consultar elementos y modificar su valor
+
+Tipo de estrucutra = tupla --> inmutable   -flexible
+
+Declarar tupla
+
+info_pet= ("Dante", "dog, 4, "m")	  
+
+Normalmente las tuplas tienen el mismo tamaño cuando están contenidas en lista
+
+
+Lista que anida tupas:
+pets_list=[]
+
+LISTAS:
+Añadir elemento al final= append("value")
+Añadir elemento al inicio de la lista= insert(index, value)
+Añadir elemento en cualquier posición= insert(posicion, valor)
+Eliminar último elemento= pop()
+Eliminar elemento de una posición específica= pop(index)
