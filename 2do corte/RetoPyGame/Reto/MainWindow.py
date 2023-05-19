@@ -2,6 +2,7 @@ import pygame
 from MenuPanel import MenuPanel
 from SingleLinkedListPanel import SLLPanel
 from temp_panel import tempPanel
+from PilasYColas import Pilas
 import sys
 class Window:
 
@@ -11,7 +12,7 @@ class Window:
         self.width = self.screen.get_width()
         self.height = self.screen.get_height()
         self.font = pygame.font.SysFont("algerian",20)
-
+        self.cartas = Pilas()
         self.Panel_SLL = SLLPanel(self.font)
         self.temppanel = tempPanel()
         self.Panel_actual = self.Panel_SLL
@@ -46,6 +47,7 @@ class Window:
         elif panel_name == "Double Linked List":
             self.Panel_actual = self.temppanel
         elif panel_name == "Pilas y Colas":
+            self.cartas.run()
             self.Panel_actual = self.temppanel
         elif panel_name == "Arboles":
             self.Panel_actual = self.temppanel
